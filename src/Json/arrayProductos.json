@@ -1,0 +1,106 @@
+{
+    "Productos":[
+        {
+            "id":1,
+            "nombre":"Salame Colonial",
+            "Category":"Fiambres",
+            "NumPuesto":"",
+            "NamePuesto":"Aldo Ferrero",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"Salame tipo colonial picado grueso",
+            "img":"pngSalame"
+        },{
+            "id":2,
+            "nombre":"Salame Colonial",
+            "Category":"Fiambres",
+            "NumPuesto":"",
+            "NamePuesto":"La esquina del Mercado ",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"Salame tipo colonial picado fino",
+            "img":"pngSalame"
+        },{
+            "id":3,
+            "nombre":"Queso Pategras",
+            "Category":"Quesos",
+            "NumPuesto":"",
+            "NamePuesto":"El Polaco",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngPategras"
+        },{
+            "id":4,
+            "nombre":"Queso Reggianito",
+            "Category":"Quesos",
+            "NumPuesto":"",
+            "NamePuesto":"El Polaco",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngReggianito"
+        },{
+            "id":5,
+            "nombre":"Queso Senda",
+            "Category":"Quesos",
+            "NumPuesto":"",
+            "NamePuesto":"El Polaco",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"Queso Senda cortado a maquina.  ",
+            "img":"pngSenda"
+        },{
+            "id":6,
+            "nombre":"Coca Cola",
+            "Category":"Bebidas",
+            "NumPuesto":"",
+            "NamePuesto":"",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngCocaCola"
+        },{
+            "id":7,
+            "nombre":"Fanta",
+            "Category":"Bebidas",
+            "NumPuesto":"",
+            "NamePuesto":"",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngFanta"
+        },{
+            "id":8,
+            "nombre":"Pepsi",
+            "Category":"Bebidas",
+            "NumPuesto":"",
+            "NamePuesto":"",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngPepsi"
+        },{
+            "id":9,
+            "nombre":"Pritty",
+            "Category":"Bebidas",
+            "NumPuesto":"",
+            "NamePuesto":"",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngPritty"
+        },{
+            "id":10,
+            "nombre":"Sprite",
+            "Category":"Bebidas",
+            "NumPuesto":"",
+            "NamePuesto":"",
+            "Precio":"",
+            "PrecioXKg":"",
+            "SmallDescription":"",
+            "img":"pngSprite"
+        }
+        
+                ]
+}
