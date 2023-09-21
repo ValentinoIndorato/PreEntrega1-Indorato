@@ -64,3 +64,10 @@
 }
 .NabVar a {text-decoration: none;
 color: #282c34;}
+.card{
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  width: 10rem;
+}

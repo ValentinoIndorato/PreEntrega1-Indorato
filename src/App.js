@@ -3,7 +3,9 @@ import NavBar from '../src/Components/NavBar';// No logro identificar porque me 
 import ItemListContainer from '../src/Components/ItemListContainer';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Error404 from './Components/Error404'
+import ItemDetailContainer from "./Components/ItemDetailContainer"
+import foto from "./assets/img/pngSalame.png";
 //import {useState, useEffect} from 'react'
 
 function App() {
@@ -14,21 +16,22 @@ function App() {
   return (
     <  >
      <BrowserRouter>
-      <NavBar />
-      
+      <NavBar />      
       <Routes>
         <Route path='/' element={<ItemListContainer greeting="llalal"/>} />
-        <Route path='/Category'  />
-        <Route path='/Bebidas'  /> 
+        <Route path='/category/:id'  element={<ItemListContainer />} />
+        <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
+        <Route path='/Bebidas/' element={<ItemDetailContainer/>} /> 
         <Route path='/Especias' />
         <Route path='/Frutos' />
         <Route path='/Fiambres'  />
-        <Route path='/Quesos' e />                        
-        <Route path='*' />   
-
+        <Route path='/Quesos' />                        
+        <Route path='*'element={<Error404 />} />   
       </Routes>
-      <ItemListContainer greeting="Bienvenido al Mercado Norte" />
+      
+      
       </BrowserRouter>
+      <img src= {foto}  style={{ width: "55rem" }}/>
     </>
   );
 }

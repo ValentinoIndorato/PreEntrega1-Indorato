@@ -1,5 +1,11 @@
+import {Link} from 'react-router-dom';
 function Item  ({item}) {
-    return <div key={item.id}>{item.nombre} </div>
+    return    <div> <Link to={"/item/" + item.id} >        
+         <h2 >{item.nombre}</h2>
+
+  </Link>
+  <h3>${item.Precio}</h3>
+  <h4>{item.SmallDescription}</h4></div>
 
 }
 export default Item

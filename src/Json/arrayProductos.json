@@ -1,82 +1,81 @@
-{
-    "Productos":[
+[
         {
             "id":1,
             "nombre":"Salame Colonial",
             "Category":"Fiambres",
             "NumPuesto":"",
             "NamePuesto":"Aldo Ferrero",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Salame tipo colonial picado grueso",
-            "img":"pngSalame"
+            "img":"../assets/img/pngSalame.png"
         },{
             "id":2,
             "nombre":"Salame Colonial",
             "Category":"Fiambres",
             "NumPuesto":"",
             "NamePuesto":"La esquina del Mercado ",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Salame tipo colonial picado fino",
-            "img":"pngSalame"
+            "img":"../assets/img/pngSalame.png"
         },{
             "id":3,
             "nombre":"Queso Pategras",
             "Category":"Quesos",
             "NumPuesto":"",
             "NamePuesto":"El Polaco",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
-            "SmallDescription":"",
-            "img":"pngPategras"
+            "SmallDescription":"Queso para acompañar un buen vino",
+            "img":"pngPategras.png"
         },{
             "id":4,
             "nombre":"Queso Reggianito",
             "Category":"Quesos",
             "NumPuesto":"",
             "NamePuesto":"El Polaco",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
-            "SmallDescription":"",
-            "img":"pngReggianito"
+            "SmallDescription":"Queso para",
+            "img":"pngReggianito.png"
         },{
             "id":5,
             "nombre":"Queso Senda",
             "Category":"Quesos",
             "NumPuesto":"",
             "NamePuesto":"El Polaco",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Queso Senda cortado a maquina.  ",
-            "img":"pngSenda"
+            "img":"pngSenda.png"
         },{
             "id":6,
             "nombre":"Coca Cola",
             "Category":"Bebidas",
             "NumPuesto":"",
             "NamePuesto":"",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"",
-            "img":"pngCocaCola"
+            "img":"pngCocaCola.png"
         },{
             "id":7,
             "nombre":"Fanta",
             "Category":"Bebidas",
             "NumPuesto":"",
             "NamePuesto":"",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
-            "SmallDescription":"",
-            "img":"pngFanta"
+            "SmallDescription":"Gaseosa sabor naranja",
+            "img":"pngFanta.png"
         },{
             "id":8,
             "nombre":"Pepsi",
             "Category":"Bebidas",
             "NumPuesto":"",
             "NamePuesto":"",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"",
             "img":"pngPepsi"
@@ -86,21 +85,20 @@
             "Category":"Bebidas",
             "NumPuesto":"",
             "NamePuesto":"",
-            "Precio":"",
+            "Precio":"500",
             "PrecioXKg":"",
-            "SmallDescription":"",
-            "img":"pngPritty"
+            "SmallDescription":"Gaseosa sabor limon",
+            "img":"pngPritty.png"
         },{
             "id":10,
             "nombre":"Sprite",
             "Category":"Bebidas",
             "NumPuesto":"",
             "NamePuesto":"",
-            "Precio":"",
-            "PrecioXKg":"",
+            "Precio":"500",
+            "PrecioXKg":"Gaseosa sabor limon",
             "SmallDescription":"",
-            "img":"pngSprite"
+            "img":"pngSprite.png"
         }
         
                 ]
-}
