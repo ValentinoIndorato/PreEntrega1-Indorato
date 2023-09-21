@@ -8,7 +8,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Salame tipo colonial picado grueso",
-            "img":"/public/img/pngSalame.png"
+            "img":"/img/pngSalame.png"
         },{
             "id":2,
             "nombre":"Salame Colonial",
@@ -18,7 +18,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Salame tipo colonial picado fino",
-            "img":"/assets/img/pngSalame.png"
+            "img":"/img/pngSalame.png"
         },{
             "id":3,
             "nombre":"Queso Pategras",
@@ -28,7 +28,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Queso para acompañar un buen vino",
-            "img":"pngPategras.png"
+            "img":"/img/pngPategras.png"
         },{
             "id":4,
             "nombre":"Queso Reggianito",
@@ -38,7 +38,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Queso para",
-            "img":"pngReggianito.png"
+            "img":"/img/pngReggianito.png"
         },{
             "id":5,
             "nombre":"Queso Senda",
@@ -48,7 +48,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Queso Senda cortado a maquina.  ",
-            "img":"pngSenda.png"
+            "img":"/img/pngSenda.png"
         },{
             "id":6,
             "nombre":"Coca Cola",
@@ -58,7 +58,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"",
-            "img":"pngCocaCola.png"
+            "img":"/img/pngCocaCola.png"
         },{
             "id":7,
             "nombre":"Fanta",
@@ -68,7 +68,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Gaseosa sabor naranja",
-            "img":"pngFanta.png"
+            "img":"/img/pngFanta.png"
         },{
             "id":8,
             "nombre":"Pepsi",
@@ -78,7 +78,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"",
-            "img":"pngPepsi"
+            "img":"/img/pngPepsi"
         },{
             "id":9,
             "nombre":"Pritty",
@@ -88,7 +88,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Gaseosa sabor limon",
-            "img":"pngPritty.png"
+            "img":"/img/pngPritty.png"
         },{
             "id":10,
             "nombre":"Sprite",
@@ -98,7 +98,7 @@
             "Precio":"500",
             "PrecioXKg":"Gaseosa sabor limon",
             "SmallDescription":"",
-            "img":"pngSprite.png"
+            "img":"/img/pngSprite.png"
         }
         
                 ]
