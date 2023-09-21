@@ -8,7 +8,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Salame tipo colonial picado grueso",
-            "img":"../assets/img/pngSalame.png"
+            "img":"/public/img/pngSalame.png"
         },{
             "id":2,
             "nombre":"Salame Colonial",
@@ -18,7 +18,7 @@
             "Precio":"500",
             "PrecioXKg":"",
             "SmallDescription":"Salame tipo colonial picado fino",
-            "img":"../assets/img/pngSalame.png"
+            "img":"/assets/img/pngSalame.png"
         },{
             "id":3,
             "nombre":"Queso Pategras",
