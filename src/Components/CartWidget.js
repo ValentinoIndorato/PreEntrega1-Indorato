@@ -1,7 +1,9 @@
-import React from 'react'
+
 import foto from "../assets/path214.png";
 
+
 function CartWidget() {
+
   return (
     <div  className="cartWidget">
       <a href="">

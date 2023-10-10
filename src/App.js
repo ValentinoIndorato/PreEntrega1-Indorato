@@ -8,6 +8,10 @@ import ItemDetailContainer from "./Components/ItemDetailContainer"
 import foto from "./assets/img/pngSalame.png";
 //import {useState, useEffect} from 'react'
 
+import Checkout from './Components/Checkout'
+import Cart from './Components/Cart'
+import CartContext from './Components/Context/CartContext'
+
 function App() {
   //const [productos, setPorductos] = useState([])
   // si fuera una appi useEffect(async()=>{const fetchData=()=>{const response= await fetch('./Json/arrayProductos.json')if(!response.ok){throw new Error('No hay productos')  }      const data = await response.json() }},[])
@@ -16,20 +20,19 @@ function App() {
   return (
     <  >
      <BrowserRouter>
+     
+      <CartContext>
       <NavBar />      
       <Routes>
         <Route path='/' element={<ItemListContainer greeting="llalal"/>} />
         <Route path='/category/:id'  element={<ItemListContainer />} />
-        <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
-        <Route path='/Bebidas/' element={<ItemDetailContainer/>} /> 
-        <Route path='/Especias' />
-        <Route path='/Frutos' />
-        <Route path='/Fiambres'  />
-        <Route path='/Quesos' />                        
+        <Route path={"/item/:id"} element={<ItemDetailContainer/>} />   
+        <Route path={"/cart"} element={<Cart/>} />   
+        <Route path={"/checkout"} element={<Checkout/>} />                         
         <Route path='*'element={<Error404 />} />   
       </Routes>
-      
-      
+      </CartContext>
+            
       </BrowserRouter>
       <img src= {foto}  style={{ width: "55rem" }}/>
     </>

@@ -64,6 +64,13 @@
 }
 .NabVar a {text-decoration: none;
 color: #282c34;}
+
+.ItemListContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
 .card{
   background-color: beige;
   display: flex;
@@ -73,4 +80,11 @@ color: #282c34;}
 }
 .card img{
   width: 100%;
+}
+
+.buttonAdd{
+
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5rem  ;
 }

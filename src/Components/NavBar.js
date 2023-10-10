@@ -12,8 +12,7 @@ function NavBar() {
         <li><Link to="/Especias">Especias</Link></li>
         <li><Link to="/category/Fiambres">Fiambres</Link></li>     
         <li><Link to="/Frutos">Frutos secos</Link></li>
-        <li><Link to="/category/Quesos">Quesos</Link> </li>
-        
+        <li><Link to="/category/Quesos">Quesos</Link> </li>    
        
         
         
