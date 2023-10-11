@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
-function Contador(){
-    const [counter, setCounter] = useState(1);
+function Contador({ initial, stock, onAdd }){
+    const [counter, setCounter] = useState(parseInt(initial))
 
 
    
@@ -19,12 +19,18 @@ function Contador(){
         } 
         
     }
+    useEffect(() => {
+		setCounter(parseInt(initial));
+	}, [initial]);
     return(
-        <>
-        <button onClick={()=>incrementarStock()}></button>
+        <div>
+        <button disabled={counter  >= stock} onClick={()=>incrementarStock()}>+</button>
         <button>{counter}</button>
-        <button onClick={()=>decrementarStock()}></button>
-        </>
+        <button disabled={counter <= 1} onClick={()=>decrementarStock()}>-</button>
+        <button disabled={stock <= 0} onClick={() => onAdd(counter)}>
+					Agregar al carrito
+				</button>
+        </div>
     )
 
 

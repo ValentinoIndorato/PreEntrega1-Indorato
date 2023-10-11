@@ -1,8 +1,7 @@
 import { useState } from "react";
 import{getFirestore, addDoc, collection, doc, getDoc, updateDoc} from 'firebase/firestore'
+import { useCartContext } from "./Context/CartContext";
 
-import { useContext } from "react";
-import { cartContext } from "./Context/CartContext";
  function Checkout  ( ) {
     const[nombre, setnombre]=useState('')
     const[apellido, setapellido]=useState('')
@@ -14,7 +13,7 @@ import { cartContext } from "./Context/CartContext";
     const[mensaje, setmensaje]=useState('')
     
 
-const{ cart, removeProduct, totalPrice}= useContext(cartContext)
+const{ cart, removeProduct, totalPrice}= useCartContext()
 const manejadorFormulario = (event) =>{
     event.preventDefault();
     if (!nombre || !apellido || !telefono || !email || !emailConfirmacion){
@@ -84,7 +83,7 @@ return (<div>
                 {cart.map((producto)=>(
                 <div key={producto.id}>
                    <p>
-                    {''}
+                    {' '}
                     {producto.nombre} x {producto.cantidad}
                     </p>
                     <p>$ {producto.item.precio} </p>

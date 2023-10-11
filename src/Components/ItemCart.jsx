@@ -1,9 +1,7 @@
 
-import { useContext } from "react";
-import { cartContext } from "./Context/CartContext";
-
-function ItemCart(product){
-    const { removeProduct}= useContext(cartContext)
+import { useCartContext } from "./Context/CartContext";
+function ItemCart({product}){
+    const { removeProduct}= useCartContext();
     return( <>
     <img src={product.img} />
     <div>

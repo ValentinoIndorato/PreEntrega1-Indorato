@@ -1,11 +1,12 @@
-import { useContext } from "react"
-import { cartContext } from "./Context/CartContext";
+
 import { getFirestore, addDoc, collection } from "firebase/firestore";
-import  Checkout from './Checkout';
+
 import {Link} from "react-router-dom"
+import { useCartContext } from "./Context/CartContext";
 import ItemCart from "./ItemCart";
+
 function Cart(){
-    const { cart, totalprice}= useContext(cartContext)
+    const { cart, totalprice}= useCartContext()
     
    const order={
     buyer:{
